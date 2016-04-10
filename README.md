@@ -25,7 +25,7 @@ This code is released under the 3-clause BSD license (see the LICENSE file for m
 
 
 # Here is my contribution (Bang Pham Huu - b.phamhuu@jacobs-university.de)
-# I've added a function named getWrsByPolygon and you can add a pairs of array (longitude, latitude) as in EarthExplorer can get all the WRS paths which intersect with your polygon.
+# I've added a function named getWrsByPolygon and you can add a pairs of array (longitude, latitude) as in EarthExplorer http://earthexplorer.usgs.gov/ can get all the WRS paths which intersect with your polygon.
 # Example: 
 
 conv = ConvertToWRS();
