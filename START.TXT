@@ -1,0 +1,6 @@
++ download and extract wrs2_descending.zip to the script folder
++ install shapely with sudo pip install shapely
++ in python, from get_wrs import *
+    conv = ConvertToWRS()
+    conv.get_wrs(50.14, -1.43) # This is latitude, longitude
+    which returns list of WRS2 path (e.g: [{'path': 201, 'row': 25}, {'path': 202, 'row': 25}] )
