@@ -28,24 +28,24 @@ This code is released under the 3-clause BSD license (see the LICENSE file for m
 # I've added a function named getWrsByPolygon and you can add a pairs of array (longitude, latitude) as in EarthExplorer http://earthexplorer.usgs.gov/ can get all the WRS paths which intersect with your polygon.
 # Example: 
 
-conv = ConvertToWRS();
-pairs = [(10.3052, 47.1449),(14.6558, 46.8752),(11.9531, 44.8081), (7.7783, 44.9181)];
-conv.getWrsByPolygon(pairs);
+	conv = ConvertToWRS();
+	pairs = [(10.3052, 47.1449),(14.6558, 46.8752),(11.9531, 44.8081), (7.7783, 44.9181)];
+	conv.getWrsByPolygon(pairs);
 
 # which returns a list of WRS path which interects your polyline of your polygon
-{'path': 194, 'row': 27},
-{'path': 194, 'row': 28},
-{'path': 194, 'row': 29},
-{'path': 192, 'row': 27},
-{'path': 192, 'row': 28},
-{'path': 192, 'row': 29},
-{'path': 190, 'row': 27},
-{'path': 190, 'row': 28},
-{'path': 195, 'row': 28},
-{'path': 195, 'row': 29},
-{'path': 193, 'row': 27},
-{'path': 193, 'row': 28},
-{'path': 193, 'row': 29},
-{'path': 191, 'row': 27},
-{'path': 191, 'row': 28},
-{'path': 191, 'row': 29}
+	{'path': 194, 'row': 27},
+	{'path': 194, 'row': 28},
+	{'path': 194, 'row': 29},
+	{'path': 192, 'row': 27},
+	{'path': 192, 'row': 28},
+	{'path': 192, 'row': 29},
+	{'path': 190, 'row': 27},
+	{'path': 190, 'row': 28},
+	{'path': 195, 'row': 28},
+	{'path': 195, 'row': 29},
+	{'path': 193, 'row': 27},
+	{'path': 193, 'row': 28},
+	{'path': 193, 'row': 29},
+	{'path': 191, 'row': 27},
+	{'path': 191, 'row': 28},
+	{'path': 191, 'row': 29}
