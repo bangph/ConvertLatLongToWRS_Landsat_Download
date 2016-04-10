@@ -1,3 +1,5 @@
+Converting latitude/longitude for point / polygon co-ordinates to Landsat WRS-2 paths/rows
+
 # Credit http://blog.rtwilson.com/converting-latitudelongitude-co-ordinates-to-landsat-wrs-2-pathsrows/
 # NOTE: you can jump to my contribution below as here you already has shapefile and only need to install GDAL/ORG and Shapely for python.
 
